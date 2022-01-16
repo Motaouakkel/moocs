@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+a .Chapter{
+    width: 60%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 35px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    z-index: 1;
+    color: dimgray;
+}
+
+a .Chapter:hover{
+    box-shadow: #3cbeed 0px 22px 70px 4px;
+}
+
+a .Chapter img{
+    height: 100%;
+    float: left;
+}
+
+a .Chapter .ChapterTitle{
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+

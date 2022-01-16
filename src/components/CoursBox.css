@@ -1,0 +1,45 @@
+.CourBox{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+.CourBox:hover{
+    box-shadow: #2623e4 0px 14px 28px, #cf5503 0px 10px 10px;    
+}
+.CourBox a{
+    text-decoration: none;
+}
+.CourBox .imgCours{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    float: left;
+}
+
+.CourBox .arrow{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    float: right;
+}
+
+.CourBox .arrow:hover{
+    width: 35px;
+}
+
+
+.CourBox .title{
+    font-family: 'Andale Mono, monospace';
+    margin: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+

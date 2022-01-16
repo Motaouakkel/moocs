@@ -1,0 +1,8 @@
+.CoursList{
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-top: 8px;
+    box-sizing: border-box;
+    float: left;
+}
